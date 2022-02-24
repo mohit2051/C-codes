@@ -7,8 +7,9 @@ int main(){
     int yearsOfLoan = 0;
     cout<<"Enter the principal amount: \n";
     cin>> principal;
-    cout<<"Enter the interest: \n";
-    cin>> interest;
+    cout<<"Enter the real world interest: \n";
+    cin>> realInterest;
+    interest = realInterest/100;
     cout<< "Enter the years of loan: \n";
     cin>> yearsOfLoan;
 
